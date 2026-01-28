@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gesture Tic Tac Toe</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: #f5f5f5;
+    }
+    canvas {
+      border: 2px solid black;
+      margin-top: 10px;
+      background: white;
+    }
+    video {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Gesture Tic Tac Toe</h2>
+<p>👆 Ko‘rsatgich bilan tanla — ✊ musht bilan tasdiq</p>
+
+<video id="video" autoplay></video>
+<canvas id="game" width="300" height="300"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
